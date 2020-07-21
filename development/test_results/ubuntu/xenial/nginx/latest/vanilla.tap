@@ -1,0 +1,377 @@
+./access.t ................................. ok
+./access_log.t ............................. ok
+./access_log_variables.t ................... ok
+./addition.t ............................... ok
+./addition_buffered.t ...................... ok
+./auth_basic.t ............................. ok
+./auth_delay.t ............................. ok
+./auth_request.t ........................... ok
+./auth_request_satisfy.t ................... ok
+./auth_request_set.t ....................... ok
+./autoindex.t .............................. ok
+./autoindex_format.t ....................... ok
+./binary_upgrade.t ......................... skipped: can leave orphaned process group
+./body.t ................................... ok
+./body_chunked.t ........................... ok
+./charset.t ................................ ok
+./charset_gzip_static.t .................... ok
+./config_dump.t ............................ ok
+./dav.t .................................... ok
+./dav_chunked.t ............................ ok
+./debug_connection.t ....................... skipped: no --with-debug available
+./debug_connection_syslog.t ................ skipped: no --with-debug available
+./debug_connection_unix.t .................. skipped: no --with-debug available
+./empty_gif.t .............................. ok
+./error_log.t .............................. ok
+./fastcgi.t ................................ ok
+./fastcgi_body.t ........................... ok
+./fastcgi_body2.t .......................... ok
+./fastcgi_buffering.t ...................... ok
+./fastcgi_cache.t .......................... ok
+./fastcgi_extra_data.t ..................... ok
+./fastcgi_header_params.t .................. ok
+./fastcgi_keepalive.t ...................... ok
+./fastcgi_merge_params.t ................... ok
+./fastcgi_merge_params2.t .................. ok
+./fastcgi_request_buffering.t .............. ok
+./fastcgi_request_buffering_chunked.t ...... ok
+./fastcgi_split.t .......................... ok
+./fastcgi_unix.t ........................... ok
+./fastcgi_variables.t ...................... ok
+./geo.t .................................... ok
+./geo_binary.t ............................. skipped: long configuration parsing
+./geo_ipv6.t ............................... ok
+./geo_unix.t ............................... ok
+./geoip.t .................................. skipped: no http_geoip available
+./grpc.t ................................... ok
+./grpc_next_upstream.t ..................... ok
+./grpc_pass.t .............................. ok
+./grpc_request_buffering.t ................. ok
+./grpc_ssl.t ............................... ok
+./gunzip.t ................................. ok
+./gunzip_memcached.t ....................... skipped: Cache::Memcached not installed
+./gunzip_perl.t ............................ skipped: no perl available
+./gunzip_ssi.t ............................. ok
+./gunzip_static.t .......................... ok
+./gzip.t ................................... ok
+./gzip_flush.t ............................. skipped: no perl available
+./h2.t ..................................... ok
+./h2_auth_request.t ........................ ok
+./h2_fastcgi_request_buffering.t ........... ok
+./h2_headers.t ............................. ok
+./h2_limit_conn.t .......................... ok
+./h2_limit_req.t ........................... ok
+./h2_max_requests.t ........................ ok
+./h2_priority.t ............................ ok
+./h2_proxy_cache.t ......................... ok
+./h2_proxy_protocol.t ...................... ok
+./h2_proxy_request_buffering.t ............. ok
+./h2_proxy_request_buffering_redirect.t .... ok
+./h2_proxy_request_buffering_ssl.t ......... ok
+./h2_proxy_ssl.t ........................... ok
+./h2_request_body.t ........................ ok
+./h2_request_body_preread.t ................ ok
+./h2_server_push.t ......................... ok
+./h2_server_tokens.t ....................... ok
+./h2_ssl.t ................................. ok
+./h2_ssl_proxy_cache.t ..................... ok
+./h2_ssl_variables.t ....................... ok
+./h2_ssl_verify_client.t ................... ok
+./h2_trailers.t ............................ ok
+./h2_variables.t ........................... ok
+./headers.t ................................ ok
+./http_absolute_redirect.t ................. ok
+./http_disable_symlinks.t .................. ok
+./http_error_page.t ........................ ok
+./http_expect_100_continue.t ............... ok
+./http_header_buffers.t .................... ok
+./http_host.t .............................. ok
+./http_include.t ........................... ok
+./http_keepalive.t ......................... ok
+./http_listen.t ............................ skipped: listen on wildcard address
+./http_location.t .......................... ok
+./http_location_auto.t ..................... ok
+./http_location_win32.t .................... skipped: not win32
+./http_resolver.t .......................... ok
+./http_resolver_aaaa.t ..................... ok
+./http_resolver_cleanup.t .................. ok
+./http_resolver_cname.t .................... ok
+./http_server_name.t ....................... ok
+./http_try_files.t ......................... ok
+./http_uri.t ............................... ok
+./http_variables.t ......................... ok
+./ignore_invalid_headers.t ................. ok
+./image_filter.t ........................... skipped: GD not installed
+./image_filter_finalize.t .................. skipped: no image_filter available
+./image_filter_webp.t ...................... skipped: no image_filter available
+./index.t .................................. ok
+./js.t ..................................... skipped: no njs available
+./js_async.t ............................... skipped: no njs available
+./js_dump.t ................................ skipped: no njs dump
+./js_headers.t ............................. skipped: no njs
+./js_import.t .............................. skipped: no njs available
+./js_internal_redirect.t ................... skipped: no njs available
+./js_modules.t ............................. skipped: no njs modules
+./js_object.t .............................. skipped: no njs request object
+./js_paths.t ............................... skipped: no njs available
+./js_promise.t ............................. skipped: no njs available
+./js_request_body.t ........................ skipped: no njs request body
+./js_return.t .............................. skipped: no njs return
+./js_subrequests.t ......................... skipped: no njs available
+./js_variables.t ........................... skipped: no njs
+./limit_conn.t ............................. ok
+./limit_conn_complex.t ..................... ok
+./limit_conn_dry_run.t ..................... ok
+./limit_rate.t ............................. ok
+./limit_req.t .............................. ok
+./limit_req2.t ............................. ok
+./limit_req_delay.t ........................ ok
+./limit_req_dry_run.t ...................... ok
+./mail_capability.t ........................ ok
+./mail_error_log.t ......................... ok
+./mail_imap.t .............................. ok
+./mail_imap_ssl.t .......................... ok
+./mail_pop3.t .............................. ok
+./mail_resolver.t .......................... ok
+./mail_smtp.t .............................. ok
+./mail_smtp_greeting_delay.t ............... ok
+./mail_smtp_xclient.t ...................... ok
+./mail_ssl.t ............................... ok
+./map.t .................................... ok
+./map_complex.t ............................ ok
+./map_volatile.t ........................... ok
+./memcached.t .............................. skipped: Cache::Memcached not installed
+./memcached_fake.t ......................... ok
+./memcached_fake_extra.t ................... ok
+./memcached_keepalive.t .................... skipped: Cache::Memcached not installed
+./memcached_keepalive_stale.t .............. skipped: Cache::Memcached not installed
+./merge_slashes.t .......................... ok
+./mirror.t ................................. ok
+./mirror_proxy.t ........................... ok
+./mp4.t .................................... ok
+./mp4_ssi.t ................................ ok
+./msie_refresh.t ........................... ok
+./not_modified.t ........................... ok
+./not_modified_finalize.t .................. ok
+./not_modified_proxy.t ..................... ok
+./perl.t ................................... skipped: no perl available
+./perl_gzip.t .............................. skipped: no perl available
+./perl_sleep.t ............................. skipped: no perl available
+./perl_ssi.t ............................... skipped: no perl available
+./post_action.t ............................ ok
+./proxy.t .................................. ok
+./proxy_bind.t ............................. ok
+./proxy_bind_transparent.t ................. skipped: must be root
+./proxy_bind_transparent_capability.t ...... skipped: must be root
+./proxy_cache.t ............................ ok
+./proxy_cache_bypass.t ..................... ok
+./proxy_cache_chunked.t .................... ok
+./proxy_cache_convert_head.t ............... ok
+./proxy_cache_error.t ...................... ok
+./proxy_cache_lock.t ....................... ok
+./proxy_cache_lock_age.t ................... ok
+./proxy_cache_lock_ssi.t ................... ok
+./proxy_cache_manager.t .................... skipped: long test
+./proxy_cache_max_range_offset.t ........... ok
+./proxy_cache_min_free.t ................... skipped: no proxy_cache_path min_free
+./proxy_cache_path.t ....................... ok
+./proxy_cache_range.t ...................... ok
+./proxy_cache_revalidate.t ................. ok
+./proxy_cache_use_stale.t .................. ok
+./proxy_cache_valid.t ...................... ok
+./proxy_cache_variables.t .................. ok
+./proxy_cache_vary.t ....................... ok
+./proxy_chunked.t .......................... ok
+./proxy_chunked_extra.t .................... ok
+./proxy_cookie.t ........................... ok
+./proxy_extra_data.t ....................... ok
+./proxy_force_ranges.t ..................... ok
+./proxy_if.t ............................... ok
+./proxy_keepalive.t ........................ ok
+./proxy_limit_rate.t ....................... ok
+./proxy_merge_headers.t .................... ok
+./proxy_method.t ........................... ok
+./proxy_next_upstream.t .................... ok
+./proxy_next_upstream_tries.t .............. ok
+./proxy_noclose.t .......................... ok
+./proxy_non_idempotent.t ................... ok
+./proxy_pass_request.t ..................... ok
+./proxy_protocol.t ......................... ok
+./proxy_protocol2.t ........................ ok
+./proxy_protocol2_server.t ................. ok
+./proxy_protocol_ipv6.t .................... ok
+./proxy_protocol_server.t .................. ok
+./proxy_redirect.t ......................... ok
+./proxy_request_buffering.t ................ ok
+./proxy_request_buffering_chunked.t ........ ok
+./proxy_request_buffering_keepalive.t ...... ok
+./proxy_request_buffering_ssl.t ............ ok
+./proxy_set_body.t ......................... ok
+./proxy_ssi_body.t ......................... ok
+./proxy_ssl.t .............................. ok
+./proxy_ssl_certificate.t .................. ok
+./proxy_ssl_keepalive.t .................... ok
+./proxy_ssl_name.t ......................... ok
+./proxy_ssl_verify.t ....................... ok
+./proxy_store.t ............................ ok
+./proxy_unfinished.t ....................... ok
+./proxy_unix.t ............................. ok
+./proxy_upgrade.t .......................... ok
+./proxy_upstream_cookie.t .................. ok
+./proxy_variables.t ........................ ok
+./proxy_websocket.t ........................ skipped: Protocol::WebSocket not installed
+./proxy_xar.t .............................. ok
+./random_index.t ........................... ok
+./range.t .................................. ok
+./range_charset.t .......................... ok
+./range_flv.t .............................. ok
+./range_if_range.t ......................... ok
+./range_mp4.t .............................. ok
+./realip.t ................................. ok
+./realip_hostname.t ........................ ok
+./realip_remote_addr.t ..................... ok
+./realip_remote_port.t ..................... ok
+./referer.t ................................ ok
+./request_id.t ............................. ok
+./rewrite.t ................................ ok
+./rewrite_if.t ............................. ok
+./rewrite_set.t ............................ ok
+./rewrite_unescape.t ....................... ok
+./scgi.t ................................... skipped: SCGI not installed
+./scgi_body.t .............................. skipped: SCGI not installed
+./scgi_cache.t ............................. skipped: SCGI not installed
+./scgi_extra_data.t ........................ skipped: SCGI not installed
+./scgi_gzip.t .............................. skipped: SCGI not installed
+./scgi_merge_params.t ...................... skipped: SCGI not installed
+./secure_link.t ............................ ok
+./server_tokens.t .......................... ok
+./slice.t .................................. ok
+./split_clients.t .......................... ok
+./ssi.t .................................... ok
+./ssi_delayed.t ............................ ok
+./ssi_if.t ................................. ok
+./ssi_include_big.t ........................ ok
+./ssi_waited.t ............................. ok
+./ssl.t .................................... ok
+./ssl_certificate.t ........................ ok
+./ssl_certificate_chain.t .................. ok
+./ssl_certificate_perl.t ................... skipped: no perl available
+./ssl_certificates.t ....................... ok
+./ssl_client_escaped_cert.t ................ ok
+./ssl_crl.t ................................ ok
+./ssl_engine_keys.t ........................ skipped: may not work, leaves coredump
+./ssl_ocsp.t ............................... skipped: no ssl_ocsp
+./ssl_password_file.t ...................... ok
+./ssl_proxy_protocol.t ..................... ok
+./ssl_proxy_upgrade.t ...................... ok
+./ssl_sni.t ................................ ok
+./ssl_sni_reneg.t .......................... ok
+./ssl_sni_sessions.t ....................... ok
+./ssl_stapling.t ........................... ok
+./ssl_verify_client.t ...................... ok
+./ssl_verify_depth.t ....................... ok
+./stream_access.t .......................... ok
+./stream_access_log.t ...................... ok
+./stream_access_log_escape.t ............... ok
+./stream_access_log_none.t ................. ok
+./stream_error_log.t ....................... ok
+./stream_geo.t ............................. ok
+./stream_geo_binary.t ...................... skipped: long configuration parsing
+./stream_geo_ipv6.t ........................ ok
+./stream_geo_unix.t ........................ ok
+./stream_geoip.t ........................... skipped: no stream_geoip available
+./stream_js.t .............................. skipped: no stream njs available
+./stream_js_import.t ....................... skipped: no njs available
+./stream_js_object.t ....................... skipped: no njs stream session object
+./stream_js_variables.t .................... skipped: no stream njs available
+./stream_limit_conn.t ...................... ok
+./stream_limit_conn_complex.t .............. ok
+./stream_limit_conn_dry_run.t .............. ok
+./stream_limit_rate.t ...................... ok
+./stream_limit_rate2.t ..................... ok
+./stream_map.t ............................. ok
+./stream_proxy.t ........................... ok
+./stream_proxy_bind.t ...................... ok
+./stream_proxy_complex.t ................... ok
+./stream_proxy_next_upstream.t ............. ok
+./stream_proxy_protocol.t .................. ok
+./stream_proxy_protocol_ipv6.t ............. ok
+./stream_proxy_protocol_ssl.t .............. ok
+./stream_proxy_ssl.t ....................... ok
+./stream_proxy_ssl_certificate.t ........... ok
+./stream_proxy_ssl_name.t .................. ok
+./stream_proxy_ssl_name_complex.t .......... ok
+./stream_proxy_ssl_verify.t ................ ok
+./stream_realip.t .......................... ok
+./stream_realip_hostname.t ................. ok
+./stream_resolver.t ........................ ok
+./stream_split_clients.t ................... ok
+./stream_ssl.t ............................. ok
+./stream_ssl_certificate.t ................. ok
+./stream_ssl_preread.t ..................... ok
+./stream_ssl_preread_alpn.t ................ ok
+./stream_ssl_preread_protocol.t ............ ok
+./stream_ssl_realip.t ...................... ok
+./stream_ssl_variables.t ................... ok
+./stream_ssl_verify_client.t ............... ok
+./stream_status_variable.t ................. ok
+./stream_tcp_nodelay.t ..................... ok
+./stream_udp_limit_conn.t .................. ok
+./stream_udp_limit_rate.t .................. ok
+./stream_udp_proxy.t ....................... ok
+./stream_udp_proxy_requests.t .............. ok
+./stream_udp_stream.t ...................... ok
+./stream_udp_upstream.t .................... ok
+./stream_udp_upstream_hash.t ............... ok
+./stream_udp_upstream_least_conn.t ......... ok
+./stream_udp_wildcard.t .................... skipped: listen on wildcard address
+./stream_unix.t ............................ ok
+./stream_upstream.t ........................ ok
+./stream_upstream_hash.t ................... ok
+./stream_upstream_least_conn.t ............. ok
+./stream_upstream_max_conns.t .............. ok
+./stream_upstream_random.t ................. ok
+./stream_upstream_zone.t ................... ok
+./stream_upstream_zone_ssl.t ............... ok
+./stream_variables.t ....................... ok
+./stub_status.t ............................ ok
+./sub_filter.t ............................. ok
+./sub_filter_buffering.t ................... ok
+./sub_filter_merge.t ....................... ok
+./sub_filter_multi.t ....................... ok
+./sub_filter_multi2.t ...................... ok
+./sub_filter_perl.t ........................ skipped: no perl available
+./sub_filter_slice.t ....................... ok
+./sub_filter_ssi.t ......................... skipped: no xslt available
+./subrequest_output_buffer_size.t .......... ok
+./syslog.t ................................. ok
+./trailers.t ............................... ok
+./upstream.t ............................... ok
+./upstream_hash.t .......................... ok
+./upstream_hash_memcached.t ................ skipped: Cache::Memcached not installed
+./upstream_ip_hash.t ....................... ok
+./upstream_ip_hash_ipv6.t .................. ok
+./upstream_keepalive.t ..................... ok
+./upstream_least_conn.t .................... ok
+./upstream_max_conns.t ..................... ok
+./upstream_random.t ........................ ok
+./upstream_zone.t .......................... ok
+./upstream_zone_ssl.t ...................... ok
+./userid.t ................................. ok
+./uwsgi.t .................................. skipped: uwsgi not found
+./uwsgi_ssl.t .............................. skipped: uwsgi not found
+./worker_shutdown_timeout.t ................ ok
+./worker_shutdown_timeout_h2.t ............. ok
+./worker_shutdown_timeout_mail.t ........... ok
+./worker_shutdown_timeout_proxy_upgrade.t .. ok
+./worker_shutdown_timeout_stream.t ......... ok
+./xslt.t ................................... skipped: no xslt available
+./xslt_params.t ............................ skipped: no xslt available
+All tests successful.
+
+Test Summary Report
+-------------------
+./memcached_fake_extra.t                 (Wstat: 0 Tests: 3 Failed: 0)
+  TODO passed:   2
+Files=369, Tests=4505, 420 wallclock secs ( 2.73 usr  0.85 sys + 48.69 cusr  7.89 csys = 60.16 CPU)
+Result: PASS
