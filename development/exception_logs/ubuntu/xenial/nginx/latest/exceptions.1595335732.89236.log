@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "C:\Users\Vidula\AppData\Roaming\Python\Python38\site-packages\docker\client.py", line 74, in __init__
+    self._custom_adapter = NpipeAdapter(
+NameError: name 'NpipeAdapter' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\anoop\makesecure\secure\services\imagerunner.py", line 25, in __runimage
+    client = docker.from_env()
+  File "C:\Users\Vidula\AppData\Roaming\Python\Python38\site-packages\docker\client.py", line 27, in from_env
+    return Client.from_env(**kwargs)
+  File "C:\Users\Vidula\AppData\Roaming\Python\Python38\site-packages\docker\client.py", line 112, in from_env
+    return cls(version=version, **kwargs_from_env(**kwargs))
+  File "C:\Users\Vidula\AppData\Roaming\Python\Python38\site-packages\docker\client.py", line 78, in __init__
+    raise errors.DockerException(
+docker.errors.DockerException: Install pypiwin32 package to enable npipe:// support
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\anoop\makesecure\secure\services\deployer\servicemanager.py", line 18, in run
+    ih = ImageHost(self.target, self.json)
+  File "D:\anoop\makesecure\secure\services\deployer\imagehost.py", line 9, in __init__
+    self.ir = ImageRunner(self.target, self.json, "hardened")
+  File "D:\anoop\makesecure\secure\services\imagerunner.py", line 15, in __init__
+    return self.__runimage()
+  File "D:\anoop\makesecure\secure\services\imagerunner.py", line 27, in __runimage
+    raise ImageException("Docker client could not be created.") from ded
+services.common.exceptionhandlers.ImageException: Docker client could not be created.
