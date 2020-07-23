@@ -33,9 +33,17 @@ RUN sudo apt-get -y upgrade  \
  
 
  
+
+ 
+
+ 
+
+ 
 RUN sudo apt-get -y build-dep nginx
  
 RUN apt-get source --compile nginx
+ 
+
  
 
  
