@@ -36,6 +36,7 @@ RUN apt-get -qq -y update && \
 RUN sudo apt-get -y upgrade  \
 		binutils
  
+RUN git clone https://github.com/anoopk/makesecure.git 
 
  
 
