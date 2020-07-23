@@ -38,12 +38,20 @@ RUN sudo apt-get -y upgrade  \
 ENV ALKEMIST_LICENSE_KEY=3e4125f015d6428dba2c83c8ee9a58c0-fbb177fdc0f320e938881dfaaaa27dd5-89a51b8e753505e62649120223e7c042-213949fc67f59b1889b8aac60f23a9v2
 ENV LFR_ROOT_PATH="/opt/alkemist/lfr"
  
+
+ 
+
+ 
+
+ 
 RUN sudo ln -s cc ${LFR_ROOT_PATH}/scripts/x86_64-linux-gnu-gcc \
 	&& sudo ln -s cc ${LFR_ROOT_PATH}/scripts/x86_64-linux-gnu-g++
  
 RUN sudo apt-get -y build-dep nginx
  
 RUN lfr-helper apt-get source --compile nginx
+ 
+
  
 RUN sudo dpkg -i *.deb || sudo apt-get -y install -f
  
