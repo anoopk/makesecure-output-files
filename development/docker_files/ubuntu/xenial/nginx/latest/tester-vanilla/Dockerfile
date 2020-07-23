@@ -39,24 +39,19 @@ RUN sudo apt-get -y upgrade  \
  
 
  
-RUN sudo apt-get -y build-dep nginx
- 
-RUN apt-get source --compile nginx
+
  
 
  
-RUN sudo dpkg -i *.deb || sudo apt-get -y install -f
+
  
-RUN ldd /usr/sbin/nginx | grep lfr
+
  
-RUN sudo apt-get -qq -y update  && \
-	apt-get -qq -y install  \
-		git
-RUN sudo git clone https://github.com/nginx/nginx-tests
+
  
-RUN mkdir /root/test-output
-RUN chown -R nginx:nginx /root
-USER nginx
+
+ 
+
  
 ENV DEBIAN_FRONTEND newt
  
