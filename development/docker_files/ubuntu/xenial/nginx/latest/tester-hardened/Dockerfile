@@ -14,7 +14,8 @@ RUN apt-get -qq -y update && \
 		sudo \
 		wget \
 		build-essential \
-		apt-transport-https
+		apt-transport-https \
+		git
  
 
  
